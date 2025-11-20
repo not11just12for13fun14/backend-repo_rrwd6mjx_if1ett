@@ -1,13 +1,18 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [148] using StatReload
-INFO:     Started server process [150]
+INFO:     Started reloader process [223] using StatReload
+INFO:     Started server process [225]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:52750 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:52766 - "GET /api/records HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:52766 - "GET /api/records HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:52782 - "GET /api/records HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:52782 - "GET /api/records HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:58206 - "OPTIONS /api/records HTTP/1.1" 200 OK
-INFO:     172.20.0.1:58212 - "POST /api/records HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:56106 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:56122 - "GET /auth/status HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56136 - "GET /api/records HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:56122 - "GET /auth/status HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56136 - "GET /api/records HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:56142 - "GET /auth/status HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56142 - "GET /api/records HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:40176 - "GET /auth/status HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56142 - "GET /api/records HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:37368 - "GET /auth/google/login HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:37368 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:59100 - "GET /auth/google/login HTTP/1.1" 500 Internal Server Error
